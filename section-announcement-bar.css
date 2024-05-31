@@ -1,0 +1,31 @@
+.announcement-bar {
+  border-bottom: 0.1rem solid gray;
+}
+
+.announcement-bar__carousel {
+  display: block;
+  width: 100%;
+}
+
+.announcement-slide {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 5rem;
+}
+
+.announcement-slide__text {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.announcement-slide__link {
+  position: absolute;
+  display: block !important; /* important added to override the empty div display:none; property */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
